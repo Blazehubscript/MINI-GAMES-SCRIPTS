@@ -1,5 +1,5 @@
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blazehubscript/Loading-screen/refs/heads/main/Loading.lua"))()
+    local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Blazehubscript/Loading-screen/refs/heads/main/Loading.lua"))()
   end)
   task.wait(0.2)
 
